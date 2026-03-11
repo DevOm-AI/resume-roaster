@@ -4,6 +4,14 @@
 
 A full-stack web app that extracts your resume PDF, sends it to Groq AI, and returns a **savage, emoji-heavy, section-by-section roast** — in English or Hindi.
 
+
+## 🚀 Live Demo
+
+Try the Resume Roaster here:
+
+[https://resume-roaster.vercel.app](https://resume-roaster-eight-xi.vercel.app/)
+
+
 ---
 
 ## 📁 Project Structure
