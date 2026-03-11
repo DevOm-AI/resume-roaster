@@ -9,7 +9,7 @@ A full-stack web app that extracts your resume PDF, sends it to Groq AI, and ret
 
 Try the Resume Roaster here:
 
-https://resume-roaster.vercel.app
+[https://resume-roaster.vercel.app](https://resume-roaster-eight-xi.vercel.app/)
 
 
 ---
