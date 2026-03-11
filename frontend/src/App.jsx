@@ -91,6 +91,11 @@ export default function App() {
             {' '}by AI. No sugarcoating. 💀
           </p>
 
+          <p className="text-sm text-red-400 mt-2">
+            ⚠️ Warning: This AI does not respect your feelings.  
+            Upload at your own emotional risk.
+          </p>
+
           {/* Badges */}
           <div style={{ display: 'flex', gap: 8, justifyContent: 'center', flexWrap: 'wrap' }}>
             {[['⚡', 'Powered by Groq AI'], ['🔒', 'No data stored'], ['🌍', 'EN + Hindi']].map(([icon, label]) => (
