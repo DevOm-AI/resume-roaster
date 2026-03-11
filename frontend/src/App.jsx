@@ -91,10 +91,16 @@ export default function App() {
             {' '}by AI. No sugarcoating. 💀
           </p>
 
-          <p className="text-sm text-red-400 mt-2">
-            ⚠️ Warning: This AI does not respect your feelings.  
-            Upload at your own emotional risk.
-          </p>
+          {/* Warning pill */}
+          <div style={{
+              display: 'inline-flex', alignItems: 'center', gap: 6,
+              padding: '4px 14px', borderRadius: 999, marginBottom: '1rem',
+              background: 'rgba(251,191,36,0.05)', border: '1px solid rgba(251,191,36,0.15)',
+              fontSize: '0.68rem', fontFamily: 'monospace', color: '#b8922a',
+            }}>
+              <span>⚠</span>
+              <span>This AI does not respect your feelings. Upload at your own emotional risk.</span>
+          </div>
 
           {/* Badges */}
           <div style={{ display: 'flex', gap: 8, justifyContent: 'center', flexWrap: 'wrap' }}>
